@@ -1,3 +1,12 @@
 def square_array(array)
-  # your code here
+  new_array = []
+  length = array.length
+  length.times do |index|
+    new_array.push((array[index]) ** 2)
 end
+
+new_array
+end
+
+array = [1, 2, 3, 4, 5]
+square_array(array)
