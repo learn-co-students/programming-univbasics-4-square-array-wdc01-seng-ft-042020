@@ -1,3 +1,11 @@
 def square_array(array)
-  # your code here
+  length = array.length
+  idx = 0
+
+  while idx < length do
+    curnum = array[idx]
+    array[idx] = curnum ** 2
+    idx += 1
+  end
+  return array
 end
